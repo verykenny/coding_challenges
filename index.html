@@ -8,5 +8,25 @@
 </head>
 <body>
   <input type="text" id="input" autofocus>
+  <div
+    class="fun-box"
+    style="background-color: blue !important;"
+  ></div>
+
+  <style>
+    .fun-box {
+      background-color: red;
+      width: 100px;
+      height: 100px;
+    }
+    @media screen and (max-width:768px) {
+      .fun-box{
+        background-color: green;
+        height: 150px;
+        width: 150px;
+      }
+    }
+
+  </style>
 </body>
 </html>
